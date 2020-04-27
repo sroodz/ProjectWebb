@@ -1,21 +1,36 @@
 
-.collapse:not(.show) {
-    display: none
+/*IMAGES*/
+
+
+/*WRAPPERS*/
+
+#ingress {
+    text-align: center;
+    border-bottom: 30px;
 }
 
-.collapsing {
-    position: relative;
-    height: 0;
-    overflow: hidden;
-    transition: height .35s ease
+#posts {
+    margin-bottom: 50px;
 }
 
-div.menu {
+div.post_wrapper {
+    margin: 0 12.5%;
+}
+
+div.post_title_image {
+    height: 40vh;
+    background-image: url("https://images.unsplash.com/photo-1587671369191-977309563a78?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+    background-size: cover;
+    background-position: center;
+}
+
+#menu {
     z-index: 999;
     background-color: #ced7de;
     border-bottom: #c2cad1 3px solid;
     width: 100%;
     height: 40px;
+    top: 0;
     position: fixed;
 }
 
@@ -37,14 +52,6 @@ div.drop_menu_icon {
 }
 
 
-a.menu_links {
-    color: #707070;
-    text-decoration: none;
-    margin: 2px 17px 2px 0;
-    font-size: 15px;
-    float: right;
-}
-
 div.drop_menu_wrapper {
     padding-left: 10px;
     padding-top: 11px;
@@ -53,6 +60,33 @@ div.drop_menu_wrapper {
 
 div.drop_menu_wrapper:hover {
     cursor: pointer;
+}
+
+#title {
+    margin: 100px 0 0 0;
+    text-align: center;
+}
+
+
+/*TEXT*/
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h2.post_ingress {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+    font-weight: 500;
+}
+a.menu_links {
+    color: #707070;
+    text-decoration: none;
+    margin: 2px 17px 2px 0;
+    font-size: 15px;
+    float: right;
 }
 
 p.menu_text {
@@ -69,9 +103,29 @@ p.menu_links {
     margin: auto 15px;
 }
 
-body {
+h1 {
+    font-size: 35px;
+    font-weight: 300;
     margin: 0;
-    font-family: Calibri, serif;
+}
+
+p.ingress {
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+/*FOOTER*/
+
+h2.post_title {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0 0 0;
+}
+
+p.post_text {
+    font-size: 14px;
+    margin: 0 0 5px 0;
 }
 
 h2.footer_header {
@@ -114,7 +168,7 @@ div.footer_content_wrapper {
 
 }
 
-footer.main_footer {
+#footer {
     background: #ced7de;
     border-top: #c2cad1 3px solid;
     display: flex;
@@ -122,7 +176,25 @@ footer.main_footer {
     padding: 10px 0;
 }
 
-a {
-    text-decoration: none;
-    color: black;
+
+/*OTHER*/
+
+body {
+    margin: 0;
+    font-family: Calibri, serif;
+}
+
+.collapse:not(.show) {
+    display: none
+}
+
+.collapsing {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    transition: height .35s ease
+}
+
+hr.ingress_hr {
+    width: 90%;
 }
