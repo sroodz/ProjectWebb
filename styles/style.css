@@ -100,6 +100,7 @@ div.footer_section_wrapper {
         width: 100%;
     }
 }
+
 @media only screen and (min-width: 651px) {
     div.footer_section_wrapper {
         display: flex;
@@ -126,28 +127,29 @@ a {
     text-decoration: none;
     color: black;
 }
+
 /*Srood-css*/
-         
-            
-            .unik-ptag {
-                color: red;
-                font-weight: bold;
-                font-size: 18px;
-                text-align: center;
-                
-            }
-            
-            .under-rubrik {
-                 color: black;
-           
-                font-size: 12px;
-                text-align: center;
-            }
-            
-            .titel-rubrik {
-                
-                color: black;
-                text-align: center;
-                font-size: 75px;
-                
-            }
+
+
+.unik-ptag {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.under-rubrik {
+    color: black;
+
+    font-size: 12px;
+    text-align: center;
+}
+
+.titel-rubrik {
+
+    color: black;
+    text-align: center;
+    font-size: 75px;
+
+}
